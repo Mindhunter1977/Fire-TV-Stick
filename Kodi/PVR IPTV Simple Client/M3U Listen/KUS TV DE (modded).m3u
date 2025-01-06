@@ -21,10 +21,14 @@ plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_i
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=sat1gold-de&stream_type=LIVE
 #EXTINF:-1 tvg-id="Sat1Gold.de" tvg-name="SAT.1_GOLD" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/sat1-gold-hd.png" group-title="Germany TV;Germany Pay TV",SAT.1 Gold HD ([COLORdeepskyblue]JOYN+ Account[/COLOR])
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=sat1gold-de-hd&stream_type=LIVE
+#EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/rtl.png" group-title="Germany TV;Germany Free TV",RTL
+http://178.219.128.68:64888/RTL
 #EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/rtl-hd.png" group-title="Germany TV;Germany Pay TV",RTL HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
 plugin://plugin.video.rtlgroup.de/?mode=playDash&action=IPTV&xcode&xlink=https://pnowlive-a.akamaized.net/live/rtlhd/dash/rtlhd.mpd&xdrm=True&xfree&xtele=RTL
-#EXTINF:-1 tvg-id="RTL2.de" tvg-name="RTLZWEI" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/rtl-zwei-hd.png" group-title="Germany TV;Germany Pay TV",RTL II HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
-plugin://plugin.video.rtlgroup.de/?mode=playDash&action=IPTV&xcode&xlink=https://pnowlive-a.akamaized.net/live/rtl2hd/dash/rtl2hd.mpd&xdrm=True&xfree&xtele=RTL2
+#EXTINF:-1 tvg-id="RTL2.de" tvg-name="RTLZWEI" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/rtl-zwei.png" group-title="Germany TV;Germany Free TV",RTL Zwei
+http://178.219.128.68:64888/RTL2
+#EXTINF:-1 tvg-id="RTL2.de" tvg-name="RTLZWEI" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/rtl-zwei-hd.png" group-title="Germany TV;Germany Free TV",RTL Zwei HD
+https://s6.hopslan.com/rtl2x1/index.m3u8
 #EXTINF:-1 tvg-id="SuperRTL.de" tvg-name="Super_RTL" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/super-rtl-hd.png" group-title="Germany TV;Germany Pay TV",Super RTL HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
 plugin://plugin.video.rtlgroup.de/?mode=playDash&action=IPTV&xcode&xlink=https://pnowlive-a.akamaized.net/live/superrtlhd/dash/superrtlhd.mpd&xdrm=True&xfree&xtele=SUPERRTL
 #EXTINF:-1 tvg-id="RTLNitro.de" tvg-name="NITRO" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/rtl-nitro-hd.png" group-title="Germany TV;Germany Pay TV",NITRO HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
@@ -53,6 +57,8 @@ plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_i
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=kabeleins-de-hd&stream_type=LIVE
 #EXTINF:-1 tvg-id="KabelEinsClassic.de" tvg-name="Kabel_Eins_CLASSICS" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/kabel1-classics-hd.png" group-title="Germany TV;Germany Pay TV",Kabel Eins CLASSICS HD ([COLORdeepskyblue]JOYN+ Account[/COLOR])
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=kabeleinsclassics-de-hd&stream_type=LIVE
+#EXTINF:-1 tvg-id="Vox.de" tvg-name="VOX" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/vox.png" group-title="Germany TV;Germany Free TV",VOX
+http://178.219.128.68:64888/VOX
 #EXTINF:-1 tvg-id="Vox.de" tvg-name="VOX" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/vox-hd.png" group-title="Germany TV;Germany Pay TV",VOX HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
 plugin://plugin.video.rtlgroup.de/?mode=playDash&action=IPTV&xcode&xlink=https://pnowlive-a.akamaized.net/live/voxhd/dash/voxhd.mpd&xdrm=True&xfree&xtele=VOX
 #EXTINF:-1 tvg-id="VOXup.de" tvg-name="VOXup" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/vox-up-hd.png" group-title="Germany TV;Germany Pay TV",VOXup HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
@@ -63,14 +69,16 @@ plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_i
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=sixx-de&stream_type=LIVE
 #EXTINF:-1 tvg-id="Sixx.de" tvg-name="sixx" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/sixx-hd.png" group-title="Germany TV;Germany Pay TV",sixx HD ([COLORdeepskyblue]JOYN+ Account[/COLOR])
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=sixx-de-hd&stream_type=LIVE
-#EXTINF:-1 tvg-id="ServusHD.de" tvg-name="ServusTV" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/servus-tv-hd.png" group-title="Germany TV;Germany Free TV",ServusTV HD
-https://stv-live.akamaized.net/hls/live/2031012/lingeoSTVDEwebPri/master_6692.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-shift="" radio="" tvg-logo="Craction.png" group-title="Germany TV;Germany Free TV",CRACTION
+plugin://plugin.video.joyn/?mode=play_video&channel_id=&movie_id=&tv_show_id=&season_id=&video_id=craction-hd&stream_type=LIVE
 #EXTINF:-1 tvg-id="ComedyCentral/VIVA.de" tvg-name="Comedy_Central" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/comedy-central.png" group-title="Germany TV;Germany Free TV",Comedy Central
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=comedy-central-de&stream_type=LIVE
 #EXTINF:-1 tvg-id="ComedyCentral/VIVA.de" tvg-name="Comedy_Central" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/comedy-central-hd.png" group-title="Germany TV;Germany Pay TV",Comedy Central HD ([COLORdeepskyblue]JOYN+ Account[/COLOR])
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=comedy-central-de-hd&stream_type=LIVE
 #EXTINF:-1 tvg-id="TLC.de" tvg-name="TLC" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/tlc.png" group-title="Germany TV;Germany Free TV",TLC
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=tlc-de&stream_type=LIVE
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/austria/orf-1-hd.png" group-title="Germany TV;Germany Free TV",ORF 1 HD
+https://s6.hopslan.com/orfx12/index.m3u8?token=cf047287f41e1ab2866bf517eb314b80f26ea1c4-9d0c133dedf3dd368c452f391b3bc18c-1733949261-173393
 #EXTINF:-1 tvg-id="ARTE.de" tvg-name="ARTE" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/arte-hd.png" group-title="Germany TV;Germany Free TV",Arte HD
 https://arteliveext.akamaized.net/hls/live/2030993/artelive_de/master.m3u8
 #EXTINF:-1 tvg-id="3sat.de" tvg-name="3sat" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/3sat-hd.png" group-title="Germany TV;Germany Free TV",3sat HD
@@ -83,6 +91,8 @@ plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_i
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=kabeleinsdoku-de-hd&stream_type=LIVE
 #EXTINF:-1 tvg-id="DMax.de" tvg-name="DMAX" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/dmax.png" group-title="Germany TV;Germany Free TV",DMAX
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=dmax-de&stream_type=LIVE
+#EXTINF:-1 tvg-id="Dokusat.de" tvg-name="Dokusat" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/dokusat.png" group-title="Germany TV;Germany Free TV",Dokusat
+https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1 tvg-id="WeltDerWunder.de" tvg-name="Welt_der_Wunder" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/welt-der-wunder.png" group-title="Germany TV;Germany Free TV",Welt der Wunder
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
 #EXTINF:-1 tvg-id="HGTV.de" tvg-name="HGTV" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/hgtv.png" group-title="Germany TV;Germany Free TV",HGTV
@@ -125,17 +135,15 @@ plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_i
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
 #EXTINF:-1 tvg-id="SCHLAGER DELUXE" tvg-name="SCHLAGER_DELUXE" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/schlager-deluxe.png" group-title="Germany TV;Germany Free TV",Schlager Deluxe
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/26658/26658_264_live.m3u8
+#EXTINF:-1 tvg-id="KroneTV.at" tvg-name="Krone.TV" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/austria/krone-tv.png" group-title="Germany TV;Germany Free TV",Kronehit TV HD
+https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-shift="" radio="" tvg-logo="" group-title="",XITE
+https://xite-samsung-de.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Deutsches Musik Fernsehen" tvg-name="Deutsches_Musik_Fernsehen" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/deutsches-musik-fernsehen-hd.png" group-title="Germany TV;Germany Free TV",Deutsches Musik Fernsehen HD
 https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8
-#EXTINF:-1 tvg-id="ONE MUSIC TELEVISION" tvg-name="ONE_MUSIC_TELEVISION" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/one-music-television.png" group-title="Germany TV;Germany Free TV",One 1 Music TV HD
-https://folxplay-t.b-cdn.net/streams/ch-3/master.m3u8
-#EXTINF:-1 tvg-id="ZWEI MUSIC TELEVISION" tvg-name="ZWEI_MUSIC_TELEVISION" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/zwei-music-television.png" group-title="Germany TV;Germany Free TV",Zwei 2 Music TV HD
-https://folxplay-t.b-cdn.net/streams/ch-2/master.m3u8
-#EXTINF:-1 tvg-id="FOLX MUSIC TELEVISION" tvg-name="FOLX_MUSIC_TELEVISION" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/folx-music-television.png" group-title="Germany TV;Germany Free TV",Folx TV HD
-https://folxplay-t.b-cdn.net/streams/ch-4/master.m3u8
-#EXTINF:-1 tvg-id="TOGGOplus.de" tvg-name="TOGGO_plus" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/toggo-plus-hd.png" group-title="Germany TV;Germany Pay TV",Toggo+ HD ([COLORdeepskyblue]RTL+ Account[/COLOR])
-plugin://plugin.video.rtlgroup.de/?mode=playDash&action=IPTV&xcode&xlink=https://pnowlive-a.akamaized.net/live/toggoplushd/dash/toggoplushd.mpd&xdrm=True&xfree&xtele=TOGGOPLUS
-#EXTINF:-1 tvg-id="Nickelodeon.de" tvg-name="nick" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/nick.png" group-title="Germany TV;Germany Free TV",Nickelodeon
+#EXTINF:-1 tvg-id="TOGGOplus.de" tvg-name="TOGGO_plus" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/toggo-plus-hd.png" group-title="Germany TV;Germany Free TV",Toggo+ HD
+https://s6.hopslan.com/superx1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.de" tvg-name="nick" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/nickelodeon.png" group-title="Germany TV;Germany Free TV",Nickelodeon
 plugin://plugin.video.joyn/?mode=play_video&channel_id=&movie_id=&tv_show_id=&season_id=&video_id=nickelodeon-de&stream_type=LIVE
 #EXTINF:-1 tvg-id="Nickelodeon.de" tvg-name="nick" tvg-shift="" radio="" tvg-logo="https://raw.githubusercontent.com/SGKodi83/tv-logos-white/main/german/nick-hd.png" group-title="Germany TV;Germany Pay TV",Nick HD ([COLORdeepskyblue]JOYN+ Account[/COLOR])
 plugin://plugin.video.joyn/?mode=play_video&parent_block_id=&block_id=&channel_id=&movie_id=&tv_show_id=&season_id=&teaser_id=&video_id=nickelodeon-de-hd&stream_type=LIVE
